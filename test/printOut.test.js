@@ -20,5 +20,8 @@ test("Check if frames print out", function() {
     var actual = printFrame(frame)
 
     //Assert
-    //expect(actual).toBe(expected)
+    expect(actual).toBe(expected)
+    // if(actual == expected){
+    //     console.log(":)")
+    // }
 })
