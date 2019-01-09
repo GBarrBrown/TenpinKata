@@ -1,0 +1,8 @@
+{
+  "name": "tenpin",
+  "version": "1.0.0",
+  "description": "Tenpin Bowling Scoring ",
+  "main": "index.js",
+  "author": "George_Katene",
+  "license": "MIT"
+}
