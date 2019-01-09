@@ -6,7 +6,7 @@
   "author": "George_Katene",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch"
   },
   "dependencies": {
     "jest": "^23.6.0"

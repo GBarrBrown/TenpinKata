@@ -1,4 +1,5 @@
-const printOut = require("../game")
+const {printOut, printFrame} = require("../game")
+
 
 test("Checks if printout works", function () {
     //Arrange
@@ -7,4 +8,17 @@ test("Checks if printout works", function () {
     //Act
 
     //Assert
+})
+
+test("Check if frames print out", function() {
+    //Arrange
+    var frame = [3,4]
+
+    const expected = 7
+
+    //Act
+    var actual = printFrame(frame)
+
+    //Assert
+    //expect(actual).toBe(expected)
 })
